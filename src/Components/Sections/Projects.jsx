@@ -53,39 +53,34 @@ function Projects() {
 
           <div className="p-6 rounded-xl border border-white/10">
             <h3 className="text-xl font-bond mb-2 text-green-400 font-bold">
-              Food Delivery Website
+              Editron
             </h3>
             <p className="text-gray-500 mb-4">
-              Food delivery website with features of adding and deleting from
-              cart, sorting food-items, selecting multiple items and ordering
-              them.
+              A modern SaaS Landing page with animations and advance styling and
+              also responsive to all devices.
             </p>
             <div>
-              {[
-                "ReactJs",
-                "Redux",
-                "TailwindCSS",
-                "React-icon",
-                "Toastify",
-              ].map((item, key) => (
-                <span
-                  key={key}
-                  className="bg-lime-500 text-black  py-1.5 px-2 m-1 rounded-full text-sm font-medium border-red-400 hover:bg-lime-600 cursor-pointer"
-                >
-                  {item}
-                </span>
-              ))}
+              {["ReactJs", "TailwindCSS", "Lucid-icon", "Vercel"].map(
+                (item, key) => (
+                  <span
+                    key={key}
+                    className="bg-lime-500 text-black  py-1.5 px-2 m-1 rounded-full text-sm font-medium border-red-400 hover:bg-lime-600 cursor-pointer"
+                  >
+                    {item}
+                  </span>
+                )
+              )}
             </div>
             <div className="flex justify-between items-center mt-5">
               <a
-                href="https://food-delivery-project-ecru.vercel.app/"
+                href="https://editron-umber.vercel.app"
                 target="_main"
                 className="text-amber-300 italic hover:text-amber-600"
               >
                 View Project Live
               </a>
               <a
-                href="https://github.com/Krishanu2002/Food-Delivery-Project"
+                href="https://github.com/Krishanu2002/Editron"
                 target="_main"
                 className="text-amber-300 hover:text-amber-600"
               >
@@ -96,39 +91,35 @@ function Projects() {
 
           <div className="p-6 rounded-xl border border-white/10">
             <h3 className="text-xl font-bond mb-2 text-green-400 font-bold">
-              Food Delivery Website
+              Personal Portfolio
             </h3>
             <p className="text-gray-500 mb-4">
-              Food delivery website with features of adding and deleting from
-              cart, sorting food-items, selecting multiple items and ordering
-              them.
+              A modern personal portfolio with animation. Includes projects with
+              live-link, github-link. Integrated EmaiJs to get email from
+              recruiter directly.
             </p>
             <div>
-              {[
-                "ReactJs",
-                "Redux",
-                "TailwindCSS",
-                "React-icon",
-                "Toastify",
-              ].map((item, key) => (
-                <span
-                  key={key}
-                  className="bg-lime-500 text-black  py-1.5 px-2 m-1 rounded-full text-sm font-medium border-red-400 hover:bg-lime-600 cursor-pointer"
-                >
-                  {item}
-                </span>
-              ))}
+              {["ReactJs", "TailwindCSS", "EmailJs", "Github"].map(
+                (item, key) => (
+                  <span
+                    key={key}
+                    className="bg-lime-500 text-black  py-1.5 px-2 m-1 rounded-full text-sm font-medium border-red-400 hover:bg-lime-600 cursor-pointer"
+                  >
+                    {item}
+                  </span>
+                )
+              )}
             </div>
             <div className="flex justify-between items-center mt-5">
               <a
-                href="https://food-delivery-project-ecru.vercel.app/"
+                href="https://krishanu2002.github.io/Personal-Portfolio/"
                 target="_main"
                 className="text-amber-300 italic hover:text-amber-600"
               >
                 View Project Live
               </a>
               <a
-                href="https://github.com/Krishanu2002/Food-Delivery-Project"
+                href="https://github.com/Krishanu2002/Personal-Portfolio"
                 target="_main"
                 className="text-amber-300 hover:text-amber-600"
               >
@@ -139,39 +130,27 @@ function Projects() {
 
           <div className="p-6 rounded-xl border border-white/10">
             <h3 className="text-xl font-bond mb-2 text-green-400 font-bold">
-              Food Delivery Website
+              To-Do-App
             </h3>
             <p className="text-gray-500 mb-4">
-              Food delivery website with features of adding and deleting from
-              cart, sorting food-items, selecting multiple items and ordering
-              them.
+              A simple to-do website to list down your work with date selection
+              and removal from list. Maintain queue order to add items.
             </p>
             <div>
-              {[
-                "ReactJs",
-                "Redux",
-                "TailwindCSS",
-                "React-icon",
-                "Toastify",
-              ].map((item, key) => (
-                <span
-                  key={key}
-                  className="bg-lime-500 text-black  py-1.5 px-2 m-1 rounded-full text-sm font-medium border-red-400 hover:bg-lime-600 cursor-pointer"
-                >
-                  {item}
-                </span>
-              ))}
+              {["ReactJs", "Redux", "Bootstrap", "React-icon"].map(
+                (item, key) => (
+                  <span
+                    key={key}
+                    className="bg-lime-500 text-black  py-1.5 px-2 m-1 rounded-full text-sm font-medium border-red-400 hover:bg-lime-600 cursor-pointer"
+                  >
+                    {item}
+                  </span>
+                )
+              )}
             </div>
             <div className="flex justify-between items-center mt-5">
               <a
-                href="https://food-delivery-project-ecru.vercel.app/"
-                target="_main"
-                className="text-amber-300 italic hover:text-amber-600"
-              >
-                View Project Live
-              </a>
-              <a
-                href="https://github.com/Krishanu2002/Food-Delivery-Project"
+                href="https://github.com/Krishanu2002/To-do-app"
                 target="_main"
                 className="text-amber-300 hover:text-amber-600"
               >
