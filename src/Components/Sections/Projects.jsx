@@ -17,7 +17,7 @@ function Projects() {
               cart, sorting food-items, selecting multiple items and ordering
               them.
             </p>
-            <div>
+            <div className="flex flex-wrap">
               {[
                 "ReactJs",
                 "Redux",
@@ -59,7 +59,7 @@ function Projects() {
               A modern SaaS Landing page with animations and advance styling and
               also responsive to all devices.
             </p>
-            <div>
+            <div className="flex flex-wrap">
               {["ReactJs", "TailwindCSS", "Lucid-icon", "Vercel"].map(
                 (item, key) => (
                   <span
@@ -98,7 +98,7 @@ function Projects() {
               live-link, github-link. Integrated EmaiJs to get email from
               recruiter directly.
             </p>
-            <div>
+            <div className="flex flex-wrap">
               {["ReactJs", "TailwindCSS", "EmailJs", "Github"].map(
                 (item, key) => (
                   <span
@@ -136,7 +136,7 @@ function Projects() {
               A simple to-do website to list down your work with date selection
               and removal from list. Maintain queue order to add items.
             </p>
-            <div>
+            <div className="flex flex-wrap">
               {["ReactJs", "Redux", "Bootstrap", "React-icon"].map(
                 (item, key) => (
                   <span

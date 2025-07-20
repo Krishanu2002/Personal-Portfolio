@@ -31,7 +31,7 @@ function Skills() {
           </h2>
         </div>
 
-        <div className="rounded-xl p-8  border border-white/10 h-[500px]">
+        <div className="rounded-xl p-8  border border-white/10 ">
           <p className="text-gray-400 mb-6">
             I am a Passionate developer with expertise in building scalable web
             applications and creating innovative solutions.
