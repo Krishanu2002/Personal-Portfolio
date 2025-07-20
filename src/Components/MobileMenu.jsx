@@ -50,15 +50,7 @@ function MobileMenu({ menuOpen, setMenuOpen }) {
       >
         Projects
       </a>
-      <a
-        href="#certificates"
-        className={`text-2xl font-semibold tet-white my-4 transform transition-transform duration-300 ${
-          menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
-        }`}
-        onClick={() => setMenuOpen(false)}
-      >
-        Certificates
-      </a>
+
       <a
         href="#contacts"
         className={`text-2xl font-semibold tet-white my-4 transform transition-transform duration-300 ${

@@ -52,13 +52,6 @@ function Navbar({ menuOpen, setMenuOpen }) {
             </a>
 
             <a
-              href="#certificates"
-              className="text-gray-300 hover:text-white transition-colors"
-            >
-              Certificates
-            </a>
-
-            <a
               href="#contacts"
               className="text-gray-300 hover:text-white transition-colors"
             >

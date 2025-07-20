@@ -23,7 +23,7 @@ function Home() {
           </a>
 
           <a
-            href="#projects"
+            href="#contacts"
             className="bg-gradient-to-r from-yellow-400 to-green-400 text-transparent bg-clip-text border-2 border-gray-700 py-3 px-6 rounded font-bold transition-all duration-200   hover:-translate-y-0.5 hover:shadow-[0_0_0-15px_rgba(59,130,246,0.2)]"
           >
             Contact me
